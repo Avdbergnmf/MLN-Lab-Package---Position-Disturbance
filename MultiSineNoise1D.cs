@@ -1,5 +1,8 @@
 using UnityEngine;
 
+// Simple class to generate a multisine signal in 1D. Customize numWaves, frequence, amplitude, and phase ranges to adapt the signal to the requirements. 
+//   In general, more waves, with broader ranged result in less predictable signals.
+//   Can normalize signal based on estimated variance. Won't fully contain signal within 0-1 range, so also has a clamping function to ensure controllability.
 public class MultisineNoise1D
 {
     public int numWaves = 1;

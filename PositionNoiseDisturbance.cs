@@ -24,7 +24,7 @@ namespace MLNLab.Tasks
 #if UNITY_EDITOR
         [ReadOnly]
 #endif
-        [SerializeField] private Vector3 offset = Vector3.zero;              // Current noise 
+        [SerializeField] private Vector3 offset = Vector3.zero;              // Current noise values
 
         private float time = 0f;
         private float timeOffset = 0f;
